@@ -1,13 +1,10 @@
 [build]
   command = "pnpm run build"
-  publish = ".next"
-
-[functions]
-  node_bundler = "pnpm"
+  publish = "out"
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/next"
+  to = "/index.html"
   status = 200
 
 [dev]
