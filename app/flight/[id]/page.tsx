@@ -1,9 +1,21 @@
-'use client'
-
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+
+export async function generateStaticParams() {
+  // Generate static pages for common flight IDs
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+    { id: '4' },
+    { id: '5' },
+    { id: '6' },
+  ]
+}
+
+'use client'
 
 export default function FlightDetailsPage() {
   const params = useParams()
