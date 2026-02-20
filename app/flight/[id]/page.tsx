@@ -1,3 +1,5 @@
+'use client'
+
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { Navbar } from '@/components/navbar'
@@ -14,8 +16,6 @@ export async function generateStaticParams() {
     { id: '6' },
   ]
 }
-
-'use client'
 
 export default function FlightDetailsPage() {
   const params = useParams()
