@@ -1,0 +1,23 @@
+// A static list of cities for autocomplete
+export const cities = [
+  { city: 'New York', code: 'NYC' },
+  { city: 'London', code: 'LHR' },
+  { city: 'Paris', code: 'CDG' },
+  { city: 'Tokyo', code: 'NRT' },
+  { city: 'Dubai', code: 'DXB' },
+  { city: 'Sydney', code: 'SYD' },
+  { city: 'Islamabad', code: 'ISB' },
+  { city: 'Karachi', code: 'KHI' },
+  { city: 'Lahore', code: 'LHE' },
+  { city: 'Toronto', code: 'YYZ' },
+  { city: 'San Francisco', code: 'SFO' },
+  { city: 'Los Angeles', code: 'LAX' },
+  { city: 'Chicago', code: 'ORD' },
+  { city: 'Beijing', code: 'PEK' },
+  { city: 'Singapore', code: 'SIN' },
+  { city: 'Bangkok', code: 'BKK' },
+  { city: 'Istanbul', code: 'IST' },
+  { city: 'Frankfurt', code: 'FRA' },
+  { city: 'Madrid', code: 'MAD' },
+  { city: 'Rome', code: 'FCO' },
+];
